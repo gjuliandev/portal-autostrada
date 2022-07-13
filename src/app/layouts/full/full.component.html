@@ -1,0 +1,30 @@
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div class="main-container"
+  [ngClass]="{'minisidebar': minisidebar, 'boxed': boxed, 'danger': danger, 'blue': blue, 'green': green, 'dark': dark,  'horizontal' : horizontal }">
+  <!-- ============================================================== -->
+  <!-- Topbar - style you can find in header.scss -->
+  <!-- ============================================================== -->
+  <mat-toolbar color="primary" class="topbar relative">
+    <div class="w-100 fix-width-for-horizontal">
+      <!-- ============================================================== -->
+      <!-- Logo - style you can find in header.scss -->
+      <!-- ============================================================== -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <b>
+            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+            <i class="wi wi-sunset"></i>
+            <!-- Dark Logo icon -->
+            <!-- <img src="assets/images/logo-icon.png" alt="homepage" class="dark-logo" width="50"> -->
+            <!-- Light Logo icon -->
+            <!-- <img src="assets/images/logo-light-icon.png" alt="homepage" class="light-logo" width="50"> -->
+          </b>
+        </a>
+      </div>
+    </div>
+  </mat-toolbar>
+</div>
+<!-- End Main Wrapper -->
+
